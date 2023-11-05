@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Imperticore</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <!-----header section -------->
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                 <a href="index.html"><img src="/logo/logo-no-background.png" width="90px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact-Us</a></li>
+                    <li><a href="account.html">Register</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="/logo/shopping-cart (2).png" width="30px" height="30px"></a>
+            <img src="/logo/menu.png" class="menu-icon" onclick="menutoggle()">
+            
+    </div>
+    </div>
+
+<!-------- About-us-------->
+  <div class="about-us">
+    <h1>About Us</h1>
+
+    <h2>Our Mission</h2><br>
+    <p>Our mission is to empower athletes of all levels to achieve their goals by 
+        offering a wide range of high-performance sports essentials. We believe that every 
+        athlete deserves access to the best equipment and apparel to excel in their chosen sport.</p>
+        
+            <h2>Our Products:</h2>
+   
+      <p>Sports Essentials</h3>
+      <p>From equipment such as basketballs, soccer balls, and tennis rackets to accessories like gloves, protective gear, and training aids, we have everything you need to elevate your game.</p>
+  
+ 
+      <h3>Clothing</h3>
+      <p>Our clothing collection features a variety of sportswear for men, women, and kids. From performance-enhancing activewear to comfortable athleisure, we offer stylish options that combine functionality with fashion.</p>
+    
+   
+      <h3>Footwear</h3>
+      <p>Step up your game with our premium selection of athletic footwear. Whether you're into running, basketball, soccer, or any other sport, we offer a wide range of sneakers and specialized shoes designed to optimize your performance and provide maximum comfort.</p>
+    
+        <h2>Quality Assurance</h2>
+    <p>We understand the importance of quality when it comes to sports gear. That's why we partner with trusted brands known for their commitment to excellence. Each product in our store undergoes rigorous quality checks to ensure durability, performance, and customer satisfaction.</p>
+  <p>We ensure our products meet or exceed industry standards for quality, durability, performance, and customer satisfaction. Our team conducts rig.
+   
+    
+        <h2>Exceptional Customer Service</h2>
+        <p>At Imperticore, we prioritize your shopping experience. Our dedicated customer support team is always ready to assist you with any queries or concerns you may have. We strive to provide prompt responses, hassle-free returns, and a seamless ordering process to make your online shopping experience enjoyable.</p>
+     
+
+        <h2>Join Our Sporting Community</h2>
+        <p>We believe in fostering a community of sports enthusiasts. Connect with us on social media platforms to stay updated on the latest product releases, exclusive offers, and sporting news. Share your sporting journey with us and be part of our growing community of athletes.</p>
+ 
+
+  </div>
+ 
+ 
+
+
+<!------footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+              <h3>subscribe for email</h3>  
+              <p>For more updates and letters on sports.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="/logo/logo-white.png">
+                <p>Our Purpose Is To Empowering convenience,
+                    One Click At A Time and Benefits 
+                    Of Sports Accessible To The Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful-Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliates</li>
+                    <li>Sign-up</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy;Imperticore 2023. All rights reserved.
+        </p>
+    </div>
+</div>
+<!------js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px" ;
+    }
+    else {
+        MenuItems.style.maxHeight = "0px";
+    }
+}
+</script>
+</body>
+</html>
